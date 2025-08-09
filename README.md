@@ -1,4 +1,4 @@
-# eqlabs-tools-php-skeleton-creator-homebrew-tap
+# eqlabs-tools-php-cli-homebrew-tap
 
 The home of the Homebrew Cask TAP for the Equation Labs I/O CLI Tooling
 
