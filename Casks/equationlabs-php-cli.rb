@@ -2,7 +2,7 @@
 cask "equationlabs-php-cli" do
   desc "EquationLabs PHP CLI creates scaffolded projects following equationlabs development guidelines (DDD, CQRS, Testing, Automation)"
   homepage "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator"
-  version "1.0.0"
+  version "1.1.0-rc.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -11,18 +11,18 @@ cask "equationlabs-php-cli" do
   binary "equationlabs-php-cli"
 
   on_macos do
-    url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.0.0/equationlabs-php-cli-v1.0.0-darwin-all-all.tar.gz"
-    sha256 "bac60d82e82d4698e72f2fcdad6035d9c738cd4a4efa1021f064fec36e8a4c67"
+    url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.1.0-rc.1/equationlabs-php-cli-v1.1.0-rc.1-darwin-all-all.tar.gz"
+    sha256 "0d4c1682d3cd5f599e10c22b1ef3e595983d15b1dcb06229ee9cc87e7a42a037"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.0.0/equationlabs-php-cli-v1.0.0-linux-amd64-x86_64.tar.gz"
-      sha256 "f9389eed35f81b6dce0a825fd771ad53a9a52a9f9da6438946d53b79b5d99190"
+      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.1.0-rc.1/equationlabs-php-cli-v1.1.0-rc.1-linux-amd64-x86_64.tar.gz"
+      sha256 "3a8581fcd5aad41efb28c4cbc783404f4a793126a05461c4be306fb0a94702f3"
     end
     on_arm do
-      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.0.0/equationlabs-php-cli-v1.0.0-linux-arm64-arm64.tar.gz"
-      sha256 "8262ebbd39cc653cf570d0d7e6571988fca345787451f6875dd3a88b2fc9651b"
+      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.1.0-rc.1/equationlabs-php-cli-v1.1.0-rc.1-linux-arm64-arm64.tar.gz"
+      sha256 "9d423c9458dd058a5f124ade0bb2222c1909271875e4233ab245fdffedeb4442"
     end
   end
 
