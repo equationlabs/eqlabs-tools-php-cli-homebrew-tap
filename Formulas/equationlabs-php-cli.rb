@@ -13,7 +13,7 @@ class EquationlabsPhpCli < Formula
 
   on_macos do
     url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.1.0-rc.1/equationlabs-php-cli-v1.1.0-rc.1-darwin-all-all.tar.gz"
-    sha256 "0d4c1682d3cd5f599e10c22b1ef3e595983d15b1dcb06229ee9cc87e7a42a037"
+    sha256 "db5d93f2cfb44f238a538d022a19ae4b061867a6865d3f933cd480bde9fd966b"
 
     def install
       bin.install "equationlabs-php-cli"
@@ -23,14 +23,14 @@ class EquationlabsPhpCli < Formula
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
       url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.1.0-rc.1/equationlabs-php-cli-v1.1.0-rc.1-linux-amd64-x86_64.tar.gz"
-      sha256 "3a8581fcd5aad41efb28c4cbc783404f4a793126a05461c4be306fb0a94702f3"
+      sha256 "7226d622810331ec10c0e7669d1d6f678122d8e02baee48f5914a652fbc14b49"
       def install
         bin.install "equationlabs-php-cli"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
       url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v1.1.0-rc.1/equationlabs-php-cli-v1.1.0-rc.1-linux-arm64-arm64.tar.gz"
-      sha256 "9d423c9458dd058a5f124ade0bb2222c1909271875e4233ab245fdffedeb4442"
+      sha256 "cf80212c3fcfd9fcbe54946468af7c1364aebad4f1e0601e9b9c5c0d850a1c78"
       def install
         bin.install "equationlabs-php-cli"
       end
