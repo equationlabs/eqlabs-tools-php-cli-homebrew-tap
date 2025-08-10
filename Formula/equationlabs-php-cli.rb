@@ -5,15 +5,14 @@
 class EquationlabsPhpCli < Formula
   desc "EquationLabs PHP CLI creates scaffolded projects following equationlabs development guidelines (DDD, CQRS, Testing, Automation)"
   homepage "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
 
-  depends_on "composer" => :optional
-  depends_on "git" => :optional
+  depends_on "composer"
 
   on_macos do
-    url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v2.0.0/equationlabs-php-cli-v2.0.0-darwin-all-all.tar.gz"
-    sha256 "126958cc7d982175028b48afc3a32f8a39a9b34b126922901a265d421a5f0dcb"
+    url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v2.0.1/equationlabs-php-cli-v2.0.1-darwin-all-all.tar.gz"
+    sha256 "23dbfa42e166fdce540b7fafd89ca0b02e195608c09d2654fdd4fa70e6af17ac"
 
     def install
       bin.install "equationlabs-php-cli"
@@ -22,15 +21,15 @@ class EquationlabsPhpCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v2.0.0/equationlabs-php-cli-v2.0.0-linux-amd64-x86_64.tar.gz"
-      sha256 "695beba964eb7d7758a1557d1778a77fc4c0dcc8a60007262de90a012c87e629"
+      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v2.0.1/equationlabs-php-cli-v2.0.1-linux-amd64-x86_64.tar.gz"
+      sha256 "f0aad5bc14690d3cce02dfd8ccdcc619b0436c27542b9b55bd492452c2b21e20"
       def install
         bin.install "equationlabs-php-cli"
       end
     end
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v2.0.0/equationlabs-php-cli-v2.0.0-linux-arm64-arm64.tar.gz"
-      sha256 "c3f2d04ef9ad5a5deba4c0744e8caf1dc277229ba7f8bf6a498aa4df471857b4"
+      url "https://github.com/equationlabs/eqlabs-tools-php-skeleton-creator/releases/download/v2.0.1/equationlabs-php-cli-v2.0.1-linux-arm64-arm64.tar.gz"
+      sha256 "aef23597badaa974a974beeeb38e9e498b3b1227ca5d8e7ef19644521983107e"
       def install
         bin.install "equationlabs-php-cli"
       end
